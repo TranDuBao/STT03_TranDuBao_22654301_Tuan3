@@ -1,0 +1,97 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    width: auto;
+    height: 700px;
+    border:1px solid black;
+}
+.hinhanh_header{
+    height: 150px;
+}
+.header{
+    width:100%;
+    height:150px;
+    background-color:#2d4d76;
+}
+.title {
+    height: 150px;
+}
+.title h2{
+    font-size: 40px;
+    color:aliceblue;
+}
+.title .p_header{
+    color:aliceblue;
+}
+.header .title h2,.p_header{
+    position: relative;
+    top:-130px;
+    left:110px;
+}
+.nav_header{
+    position: absolute;
+    top:113.5px;
+    left:40%;
+    display:inline;
+    width: 100%;
+    height: 30px;
+}
+.nav_header a{
+    text-decoration: none;
+    margin-left: 10px;
+    padding:20px;
+    background-color: rgb(61, 83, 207);
+    color:aliceblue;
+}
+.search{
+    position: absolute;
+    top:10px;
+    right:10px;
+}
+.search .tim_kiem{
+    border: 1px solid blue;
+    background-color: rgb(25, 25, 97);
+    padding: 2px;
+}
+.content{
+    padding: 50px 20px 30px 0;
+}
+.noidung1 {
+    padding:10px;
+    width:38%;
+    float: left;
+    color:#5f5e5e;
+}
+.noidung2 {
+    width:29%;
+    float:left;
+    color:#5f5e5e;
+}
+.content_trai {
+    width:29%;
+    float: left;
+    background-color: aliceblue;
+    padding-left: 20px;
+    padding-top:20px;
+    color:#5f5e5e;
+
+}
+.hinhanh {
+    width: 80%;
+    border:3px double #ccc;
+}
+.noidung1>p>i{
+    color:red;
+    text-shadow: 0.5em 5px 5px green;
+    line-height: 2px;
+}
+tr{
+    padding:20px;
+}
+footer{
+    background-color: #5687b8;
+    padding:10px;
+}
